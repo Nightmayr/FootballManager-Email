@@ -37,10 +37,10 @@ public class EmailService {
 	@Value("${recipient.email}")
 	private String recieveEmail;
 	
-	@Value("${emailTitle}")
+	@Value("${email.settitle}")
 	private String emailTitle;
 	
-	@Value("${emailContent}")
+	@Value("${email.setcontent}")
 	private String emailContent;
 	
 	
